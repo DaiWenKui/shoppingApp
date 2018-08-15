@@ -17,6 +17,7 @@ import './assets/css/vue2-animate.css'
 Vue.use(VueAxios, axios)
 
 Vue.config.productionTip = false
+Vue.config.devtools = true
 
 
 router.afterEach(() => {
